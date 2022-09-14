@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.credit {
+    background: rgba(0, 0, 0, 0.60);
+    font-size: 2.8em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.4em;
+    text-align: center;
+    box-sizing: border-box;
+}
+.credit1 {
+    background: rgba(0, 0, 0, 0.60);
+    font-size: 2.8em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.4em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.credit a {
+    color: red;
+    transition: 1s;
+}
+
+.credit a:hover {
+    color: white;
+    text-shadow: 0 0 8px white;
+}

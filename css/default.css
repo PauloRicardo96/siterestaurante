@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html, body { font-family: 'Dancing Script', cursive; font-size: 100%; width: 100%; height: 100%; }
+
+p { text-align: justify; }
+h1 { font-size: 3.4em; font-weight: 700; }
+footer {font-size: 2em;}
+a { text-decoration: none; transition: 0.5s; }
+a:hover { opacity: 0.6; }
+
+.container { width: 100%; height: 100%; display: grid; grid-template-rows: 60px auto 60px; }
+.header, .footer { display: flex; align-items: center; justify-content: center; background-color: black; }
+.header h1 { color: red;}
+.footer address { color: whitesmoke; }
+.main { display: flex; align-items: center; justify-content: center; }
+.footer address { font-weight: 300; overflow: hidden; }
+.footer address a { font-weight: 400; color: red; }
